@@ -1,0 +1,74 @@
+Light of the seven
+Autonomous light following bot event
+
+Description:
+As the Game of Thrones intensifies and makes you clamour for your favorite king or queen, winter is
+coming, and days shorten and nights lengthen. The Song of Ice and Fire tells you to listen to your heart,
+believe in yourself and seek the light within and around you. As a faithful Westerosi, follow the light and
+you will always be safe. For the night is dark and full of terrors.
+Problem statement:
+Build an autonomous bot that moves towards a light source and stays at rest when no source of light is
+detected.
+Tasks:
+I.
+The bot has to move towards a light source in the arena. Light sources will be turned on and off
+in a sequence and the bot has to follow this sequence.
+II.
+The participants will be given control of the lights and the bot has to be made to move towards
+a point in the arena by turning on and off the light sources in an efficient manner.
+
+Specifications:
+Bot
+
+
+
+
+
+
+
+The bot must have an LED on it that acts as an indicator for the bot, in the dark. The sensors
+must be calibrated such that this LED doesn’t interfere with the target light.
+Only onboard sensors are allowed. No form of external communication is permitted. The bot
+takes all decisions autonomously.
+The bot can have a non combustion based onboard power source. Further, voltage difference
+between any two points must not exceed 12 V at all times.
+After the timer has been initiated, no user intervention will be allowed.
+The bot has to fit inside a 30cmX30cmX30cm box at all instances of time.
+Any damage to the arena and objects present will lead to disqualification of the team. The team
+must ensure that their bot doesn’t contain any sharp regions that could cause any potential
+damage.
+
+Arena
+ The size of the arena will be 10feetX10feet
+ Target light sources will be placed at different locations on the arena. The shape bounded by
+these light sources will be convex.
+
+
+
+
+
+
+The light sources will be 100W bulbs. At any given instant of time, only one light source will be
+switched on.
+The light source will be turned off when the bot is close to the light source. The bot is said to
+have successfully reached the target if the target light source switches off and a new target light
+source is triggered on. The light source is switched off just before the bot reaches the target to
+prevent the bot from colliding with the light source.
+The arena will be a dark arena with the only light sources being the target light sources and the
+indicator LED on the bot.
+
+Winning criteria: Out of 50 points
+ Completion of task I – 20 points
+ Completion of task II – 20 points
+ Innovation in bot and sensor design – 10 points
+Event rules:
+ A team can have a minimum of 1 and a maximum of 4 members.
+ The task will have a time constraint of 15 minutes. Before the task begins, an additional 10
+minutes will be given for calibration, if required.
+ The decision of the organizers will be final and binding
+
+-
+
+-
+
+
